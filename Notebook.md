@@ -1,5 +1,13 @@
 ## Notebook
 
+### 10/4/13
+Continued work on the Google Fusion document in one team. Team 2 went up through folio 63r and encountered numerous gaps in the text.
+
+#### To Do:
+- Create two .csv files in the repository (one for each team) from this Google document
+- Bring in translations of *Sphere and Cylinder* to reference during future weeks
+
+
 ### 9/27/13
 Began work on a Google Fusion document which relates sections of *On the Sphere and Cylinder* (lemmata, propositions, axioms, etc.) to image citations for their locations in the palimpsest.
 
