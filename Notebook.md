@@ -7,7 +7,7 @@ Moved text-to-image data from Fusion document to two files in the repository.  E
 Continued work on the Google Fusion document in one team. Team 2 went up through folio 63r and encountered numerous gaps in the text.
 
 #### To Do:
-- Create two .csv files in the repository (one for each team) from this Google document
+- ~~Create two .csv files in the repository (one for each team) from this Google document~~
 - Bring in translations of *Sphere and Cylinder* to reference during future weeks
 
 
@@ -21,6 +21,6 @@ Team 2 progressed from 55r to 57r today.  Team 2 also discovered a gap between t
 When this project is completed for *Sphere and Cylinder*, the table will be downloaded from Google Fusion and pushed to the repository.
 
 #### To Do:
-- Determine how best to represent the gap between 56v and 57r
-- Add links to the Image Citation Tool for each folio for easy access by all team members
+- ~~Determine how best to represent the gap between 56v and 57r~~
+- ~~Add links to the Image Citation Tool for each folio for easy access by all team members~~
 - Perhaps photocopy pages from the Archimedes Palimpsest Vol II so that both teams can consult it at the same time with more ease?
