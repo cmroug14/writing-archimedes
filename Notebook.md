@@ -1,5 +1,8 @@
 ## Notebook
 
+### 10/8/13
+Moved text-to-image data from Fusion document to two files in the repository.  Edited wiki guide to reflect the new location and work process.
+
 ### 10/4/13
 Continued work on the Google Fusion document in one team. Team 2 went up through folio 63r and encountered numerous gaps in the text.
 
