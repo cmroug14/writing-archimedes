@@ -1,5 +1,8 @@
 ## Notebook
 
+### 10/11/13
+Imaged the preface of *Sphere and Cylinder* and marked up the hard copy of the text for the preface.
+
 ### 10/8/13
 Moved text-to-image data from Fusion document to two files in the repository.  Edited wiki guide to reflect the new location and work process.
 
