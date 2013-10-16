@@ -4,11 +4,11 @@ Search for '.?' for questions and '.!' for things that need to be fixed.
 
 Quicklinks:
 
-- [Digital Photography of Manuscripts]()
-- [Transcribed Material]()
-- [Indexed Material]()
-- [Captured Material]()
-- [Collected Material]()
+- [Digital Photography of Manuscripts](https://github.com/cmroug14/writing-archimedes/blob/master/RepositoryNotes_archimedes-hc.md#digital-photography-of-manuscripts)
+- [Transcribed Material](https://github.com/cmroug14/writing-archimedes/blob/master/RepositoryNotes_archimedes-hc.md#transcribed-material)
+- [Indexed Material](https://github.com/cmroug14/writing-archimedes/blob/master/RepositoryNotes_archimedes-hc.md#indexed-material)
+- [Captured Material](https://github.com/cmroug14/writing-archimedes/blob/master/RepositoryNotes_archimedes-hc.md#captured-material)
+- [Collected Material](https://github.com/cmroug14/writing-archimedes/blob/master/RepositoryNotes_archimedes-hc.md#collected-material)
 
 ## Digital Photography of Manuscripts
 
