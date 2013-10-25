@@ -1,5 +1,10 @@
 ## Notebook
 
+### 10/25/13
+Imaged the first five axioms of *Sphere and Cylinder* and marked up the hard copy of the text.
+
+Marked up the hard copy of the text for lemmata 8 (through first two imaged sections).
+
 ### 10/11/13
 Imaged the preface of *Sphere and Cylinder* and marked up the hard copy of the text for the preface.
 
