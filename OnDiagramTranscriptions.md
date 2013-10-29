@@ -37,7 +37,7 @@ We definitely do want to use vector images for whatever is produced.
 + Could use an graphics editor to draw circles, lines, and overlay these on the manuscript image to essentially trace the diagram by hand
     + we would want to trace the geometric elements of the diagram (circles, lines, etc.) but not necessarily the labels, since labels are text
         + separate .xml file for labels? (like the separate file for scholia? and linked to a specific region through an image ROI like scholia?) again, this might be getting too complicated
-    + Is Gimp good for editing vectors?
+    + ~~Is Gimp good for editing vectors?~~ Gimp doesn't work well and can't create .svg files: use [Inkscape](http://inkscape.org/) perhaps
     + produce a .svg file?
 + Could overlay a coordinate axis on the image, pick out significant points (two points could describe a line; three points could describe a circle, an arc, a triangle; etc.) and then mathematically describe each geometric piece on the coordinate axis
     + program could then take these equations and graph them or perhaps produce an image in .svg format?
