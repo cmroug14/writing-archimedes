@@ -1,5 +1,8 @@
 ## Notebook
 
+### 11/1/13
+Imaged axiom six and marked up hard copy of the text for axiom 5 and lemmata 8.  Began lemmata 9 (finished first image).
+
 ### 10/25/13
 Imaged the first five axioms of *Sphere and Cylinder* and marked up the hard copy of the text.
 
