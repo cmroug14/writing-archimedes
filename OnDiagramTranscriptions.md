@@ -34,13 +34,13 @@ We definitely do want to use vector images for whatever is produced.
 
 + [Diagram Markup Language](http://episteme.sourceforge.net/dml.html) encodes the logic of the diagrams and extends the ePix graphics library to construct the presentation of the diagrams
     + produces a .svg file
-+ Could use an graphics editor to draw circles, lines, and overlay these on the manuscript image to essentially trace the diagram by hand
++ **Could use an graphics editor to draw circles, lines, and overlay these on the manuscript image to essentially trace the diagram by hand**
     + we would want to trace the geometric elements of the diagram (circles, lines, etc.) but not necessarily the labels, since labels are text
         + separate .xml file for labels? (like the separate file for scholia? and linked to a specific region through an image ROI like scholia?) again, this might be getting too complicated
     + ~~Is Gimp good for editing vectors?~~ Gimp doesn't work well and can't create .svg files: use [Inkscape](http://inkscape.org/) perhaps
     + produce a .svg file?
-+ Could overlay a coordinate axis on the image, pick out significant points (two points could describe a line; three points could describe a circle, an arc, a triangle; etc.) and then mathematically describe each geometric piece on the coordinate axis
-    + program could then take these equations and graph them or perhaps produce an image in .svg format?
++ ~~Could overlay a coordinate axis on the image, pick out significant points (two points could describe a line; three points could describe a circle, an arc, a triangle; etc.) and then mathematically describe each geometric piece on the coordinate axis~~
+    + ~~program could then take these equations and graph them or perhaps produce an image in .svg format?~~
 
 The transcriptions can either take the form of one image for the whole diagram or multiple images for each part (circle ΑΒΓΔ, line ΓΔ, etc.) and a final stacked image for the whole diagram.  Are there reasons we might want separate parts?
 
@@ -48,3 +48,18 @@ The transcriptions can either take the form of one image for the whole diagram o
 + Comparing diagrams in different manuscripts by each part
 + Saying 'this section' is unclear but 'that section' is clear
 + Analyzing what parts most commonly appear (like circle ΑΒΓΔ)
+
+## Using Inkscape
+
+1. Open figure ROI image with Inkscape.
+2. Manually trace the diagram using circles, lines, Bezier paths, etc.
+    + Separate diagram into parts according to individual shapes, using separate layers
+    + OR separate diagram into parts according to its construction, using separate layers
+3. Save diagram as an optimized .svg file.
+    + Simplify colors
+    + Style to xml
+    + Group collapsing
+    + Enable id stripping
+    + Keep editor data
+    + Precision: 7?
+    + Indent: Space
