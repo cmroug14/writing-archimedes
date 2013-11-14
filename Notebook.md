@@ -1,5 +1,14 @@
 ## Notebook
 
+### 11/14/13
+Work on diagrams.
+
+#### To Do:
+- Note where polygons are drawn with curved lines and where with straight lines: both seem to be present.
+
+### 11/8/13
+Imaged postulates 0-3 and marked up hard copy of text.  Planned for presentation.
+
 ### 11/1/13
 Imaged axiom six and marked up hard copy of the text for axiom 5 and lemmata 8.  Began lemmata 9 (finished first image).
 
