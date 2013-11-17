@@ -1,5 +1,11 @@
 ## Notebook
 
+### 11/17/13
+Added diagram tracings: currently have 58v, 61r, 62v.  Determined a method to preserve geometric data and construction data in the same image file.
+
+#### To Do:
+- Change Heiberg photography to match other dimensions
+
 ### 11/14/13
 Work on diagrams.
 
