@@ -1,0 +1,386 @@
+/*
+*  nscommon2.css:  
+*  Shared baseline CSS to be used together with one or more
+*  different stylesheets for specific kinds of page layout,
+*  or theme.  Contents of this style sheet should apply
+*  across all layouts and @media queries.
+*
+*  Usage:
+*  This common sheet should be included in your HTML immediately
+*  after nsreset.css.
+*
+*  License:
+*  Creative Commons Attribution Share-Alike.
+*  
+*  Source:
+*  Some of this derives from Jonathan Verecchia's 
+*  responsive template available from
+*  http://www.initializr.com/
+*  and released in the public domain.
+*  See also
+*  http://verekia.com/initializr/responsive-template
+*
+*  Some of this, including the magical font size scaling
+*  and the wonderful GSS javascript overlay, was derived from GGS.css:
+* 
+*  Golden Grid System (1.01)   <http://goldengridsystem.com/>
+*  by Joni Korpi               <http://jonikorpi.com/>
+*  licensed under MIT          <http://opensource.org/licenses/mit-license.php>
+*
+*
+*  TBD:  
+*  This stylesheet and the accompanying nsresponsive.css
+*  stylesheet should be generated from lesscss source, instead of
+*  being manually written:
+*  http://lesscss.org
+*
+*/
+/* =================================
+   Color variables
+   =================================*/
+/* =================================
+   Font definitions, and less font variables
+   =================================*/
+@font-face {
+  font-family: Futura;
+  src: local("FuturaBook BT");
+  src: url("fonts/FuturaBook BT.ttf");
+}
+@font-face {
+  font-family: Futura;
+  src: local("FuturaBook BT");
+  src: url("fonts/Futura BdCn BT Bold.ttf");
+  font-weight: bold;
+}
+/* =================================
+   Block display
+   =================================*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio[controls],
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/* =================================
+   "Consistency fixes" from GGS,
+   adopted from http://necolas.github.com/normalize.css/
+   =================================*/
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  min-height: 100%;
+  font-size: 100%;
+}
+article[role='main'] {
+  clear: both;
+  margin-top: 0.4em;
+}
+footer {
+  clear: both;
+}
+/* =================================
+   Base font settings
+   =================================*/
+html {
+  font-family: Futura, helvetica, arial, sans-serif;
+}
+h1 {
+  text-transform: lowercase;
+  font-weight: bold;
+}
+h2 {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+footer {
+  font-size: 80%;
+}
+/* =================================
+   Colors
+   =================================*/
+a {
+  color: #6082b6;
+}
+footer {
+  color: #999999;
+}
+/* =================================
+   Forms, tables, dls
+   =================================*/
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+textarea {
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  margin-top: 0.8em;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+th {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.2em;
+}
+tr {
+  padding: 0.2em;
+}
+tr:nth-child(even) {
+  background: #bbb;
+}
+td {
+  padding: 0.2em;
+}
+dl dt {
+  float: left;
+  background: #eee;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin-right: 0.2em;
+  padding: 0 0.2em;
+}
+dl dd {
+  margin-bottom: 1em;
+  border-bottom: solid 1px black;
+}
+/* =================================
+   Typography
+   =================================*/
+figure {
+  padding: 0.1em;
+  border: solid 1px silver;
+}
+figcaption {
+  font-size: 75;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 0.4em;
+}
+em {
+  font-style: italic;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+b,
+strong {
+  font-weight: bold;
+}
+code {
+  font-family: monospace;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+ol {
+  list-style-type: lower-greek;
+  margin-left: 2em;
+}
+/* distinguish use of ul in menus
+   from ul within article
+*/
+article ul {
+  padding-left: 1em;
+  margin-left: 0;
+  padding-top: 0.6em;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+article ul li:before {
+  content: "\00BB \0020";
+}
+aside {
+  padding: 1em;
+  background: #eeeeee;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+aside h2 {
+  text-transform: lowercase;
+}
+nav a:hover {
+  /*background : white;*/
+
+  text-decoration: underline;
+}
+#logo {
+  display: block;
+  width: 100%;
+  /*background : white;*/
+
+  color: #000000;
+  font-weight: bold;
+}
+#logo:hover {
+  color: #6082b6;
+}
+/* =================================
+   GGS implementation of simple fluid media
+   =================================*/
+figure {
+  position: relative;
+}
+figure img,
+figure object,
+figure embed,
+figure video,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+/* =================================
+   GGS Zoomable baseline grid
+   type size presets
+   =================================*/
+body {
+  /* 16px / 24px */
+
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.small {
+  /* 13px / 18px */
+
+  font-size: 0.8125em;
+  line-height: 1.3846153846153846em;
+}
+.normal,
+h3 {
+  /* 16px / 24px */
+
+  font-size: 1em;
+  line-height: 1.5em;
+  /* 24 */
+
+}
+h3 {
+  padding-top: 0.5em;
+  text-decoration: underline;
+}
+.large,
+h2,
+h1 {
+  /* 26 / 36px */
+
+  font-size: 1.625em;
+  line-height: 1.3846153846153846em;
+}
+.huge {
+  /* 42px / 48px */
+
+  font-size: 2.625em;
+  line-height: 1.1428571428571428em;
+}
+.massive {
+  /* 68px / 72px */
+
+  font-size: 4.25em;
+  line-height: 1.0588235294117647em;
+}
+.gigantic {
+  /* 110px / 120px */
+
+  font-size: 6.875em;
+  line-height: 1.0909090909090908em;
+}
+/* =================================
+   Non-semantic helper classes from h5bp
+   =================================*/
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+blockquote {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 0.8em;
+  background: #999;
+  border: 2px solid black;
+  padding: 0.2em;
+}
