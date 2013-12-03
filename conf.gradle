@@ -5,9 +5,6 @@ project.ext {
     inputEncoding  = "UTF-8"
     outputEncoding = "UTF-8"
 
-    srcdirectory = "Writing"
+    srcdirectory = "markdown"
     cssdirectory = "css"
-
-
-
 }
