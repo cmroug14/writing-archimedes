@@ -1,1 +1,4 @@
 Intro_archimedes-hc-2013-14.md=Introduction
+Manuscripts.md=The Manuscripts
+HCEditions.md=Holy Cross Editions
+DigitalArchitecture.md=The Architecture of Digital Editions
