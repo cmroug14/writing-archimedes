@@ -26,7 +26,7 @@ The architecture of the Archimedes Project at Holy Cross allows the analysis of 
 
 The method used for citing the region of interest on a digital photograph where a diagram or section of text can be found provides a 'physical' location for each.  Additionally, the `<figure/>` element in the text XML records at what point in the progression of the text the diagram appears.
 
-With such data, it is possible to investigate questions concerning where diagrams stood in relation to the text (even for spaces where diagrams were never drawn in).  Did they generally appear at the start of the text/near the construction/somewhere in the middle/at the end?  Do different manuscripts have different setups?  How often was text wrapped around diagrams rather than standing separately?
+With such data, it is possible to investigate questions concerning where diagrams stand in relation to the text (even for spaces where diagrams were never drawn).  Did they generally appear at the start of the text/near the construction/somewhere in the middle/at the end?  Do different manuscripts have different setups?  How often was text wrapped around diagrams rather than left to stand separately?
 
 Should Holy Cross's digital edition of Archimedes be expanded in the future to include additional manuscripts, perhaps related to each other, it would be interesting to consider how (if at all) the layout of diagrams and text changed during the transmission of Archimedes.
 
@@ -42,4 +42,6 @@ If data from additional manuscripts is collected in the future, it would be inte
 
 #### Construction of the Diagram
 
-Incorporating the steps of the construction into the diagram tracing records in what order geometric objects are constructed.  It is possible to analyze this data to seek patterns within treatises: does Archimedes generally follow the same progression?  How do constructions most commonly begin?  Do constructions always increase in complexity with later propositions?
+Incorporating the steps of the construction into the diagram tracing records in what order geometric objects are constructed.  It is possible to analyze this data to seek patterns within treatises: does Archimedes generally follow the same progression?  How do constructions most commonly begin?  Do constructions increase in complexity with later propositions?
+
+Additionally, it is interesting to consider how closely the scribe followed the text of the construction and to note when he included geometric objects that are not called for in the construction.  Such investigations could lead to a better understanding of how the diagrams were created.
