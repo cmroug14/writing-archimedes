@@ -1,1 +1,7 @@
 Intro_archimedes-hc-2013-14.md
+Manuscripts.md
+HCEditions.md
+DigitalArchitecture.md
+Transcriptions_Text.md
+Transcriptions_Diagrams.md
+LinkingDiagramAndText.md
