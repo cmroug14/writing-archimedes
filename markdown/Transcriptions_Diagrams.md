@@ -18,7 +18,7 @@ Similarly, transcribing the diagrams possesses some different goals than transcr
 
 ### Scalable Vector Graphics
 
-The diagram tracings included in Holy Cross's edition are SVG files, an XML-based vector image format.  The tracings incorporate data on the geometric shapes that make up the diagram, the labels that accompany them, and the sequence of the construction as described by the text.
+The diagram tracings included in Holy Cross's edition are SVG files, an XML-based vector image format.  The tracings incorporate data on the geometric shapes that make up the diagram, the labels that accompany them, and the sequence of the construction as described by the text.  Like the XML used for texts, these SVG files also include editorial annotations.
 
 #### Geometry
 
@@ -30,15 +30,9 @@ The `inkscape:label` attribute, besides providing a unique identifier, also reco
 
 The structure of the unique identifier is therefore `[shape][labels]`.  In the case of circle ΑΒΓ, for instance, the unique identifier would be `circleΑΒΓ`.  The standard used by this edition is to include all the labels the text uses for that particular shape and to arrange them in alphabetic order.
 
-The `<desc\>` element, contained within the `<path\>` element, includes editorial information.  A geometric object can be `visible`, `unclear`, or `reconstructed`.  When the object is absolutely certain (as it often is in Codex Bodmer 8), it is marked as `visible`.  The current state of Codex C means that diagrams are often obscured or partially lost.  A shape which is legible but visually faded or obscured in part receives the marker `unclear`: a line for which the two endpoints can be seen but not the middle, for example, would be marked as such.  A shape which is known to have existed in the manuscript but which is too illegible for a confident tracing would be marked as `reconstructed`.  A scenario where a quarter of a circumscribed polygon is faded and completely missing in parts would receive such a marker: unlike the case with the uncertain line, there is not enough information to be sure that the missing arcs of the polygon followed the specific path drawn.
-
-There are some cases of diagrams where scribal corrections are apparent.  Having drawn a line incorrectly, the scribe sometimes scrapes away the error and draws the correct line.  Such a scenario requires `sic` and `corr` markers.
-
 #### Labels
 
 Labels serve as the markers that link text to diagram, and so the diplomatic transcription of the diagram must also include the labels alongside the geometric elements.  Labels are included in `<text/>` elements and are simply the appropriate Greek letter.
-
-As for geometric objects, the `<desc\>` element includes editorial information.  A label might be `visible` or `unclear`.  Again, scribal corrections require `sic` and `corr` markers.
 
 The labels that are included in the tracings are exactly the labels that appear on the diagram, despite any disagreements there might be between the labels of the diagram and the labels discussed in the text.  
 
@@ -47,3 +41,11 @@ The labels that are included in the tracings are exactly the labels that appear 
 With the appearance of the static diagram preserved through the tracing's geometric objects and labels as discussed above, a third part of the SVG file applies the structure of the construction from the text to the diagram.  This data is in addition to the diplomatic transcription of the diagram, since it looks beyond the figure to the text.
 
 The construction that is laid out in a proposition is broken down into steps.  This information is included in the diagram tracing through the group element `<g/>`.  The geometric objects and labels that are set out in the first step of the construction are contained within a `<g/>` element with the attribute `inkscape:label="tracesteps01"`, those set out in the second step are within a group identified as `tracesteps02`, etc.  The steps of the construction provide an alternative framework through which to study the diagram.
+
+#### Editorial Notes
+
+The physical diagrams which the SVG files trace are not all perfect: some are faded, obscured, or partially lost.  Occasionally additions were made to diagrams or the scribe erred and corrected his mistake.  The diagram tracings therefore encode all of this information to provide as complete a picture as possible.
+
+The `<desc\>` element, contained within the `<path/>` or `<text/>` element, includes editorial information.  A label might be `visible` or `unclear`.  A geometric object can be `visible`, `unclear`, or `reconstructed`.  When the object is absolutely certain (as it often is in Codex Bodmer 8), it is marked as `visible`.  The current state of Codex C means that diagrams are often obscured or partially lost.  A shape which is legible but visually faded or obscured in part receives the marker `unclear`: a line for which the two endpoints can be seen but not the middle, for example, would be marked as such.  A shape which is known to have existed in the manuscript but which is too illegible for a confident tracing would be marked as `reconstructed`.  A scenario where a quarter of a circumscribed polygon is faded and completely missing in parts would receive such a marker: unlike the case with the uncertain line, there is not enough information to be sure that the missing arcs of the polygon followed the specific path drawn.  
+
+There are some cases of diagrams where scribal corrections are apparent.  Having drawn a line incorrectly, the scribe sometimes scrapes away the error and draws the correct line.  Such a scenario requires `sic` and `corr` markers.  The same is true for labels: corrections are encoded with `sic` and `corr`.  If an addition in the form of a geographic object or label is made, it is marked with `add`; similarly, deletions are marked with `del`.
