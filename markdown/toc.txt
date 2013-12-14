@@ -4,3 +4,4 @@ HCEditions.md=Holy Cross Editions
 DigitalArchitecture.md=The Architecture of Digital Editions
 Transcriptions_Text.md=TEI-compliant XML Texts
 Transcriptions_Diagrams.md=Creating 'Diplomatic' Diagram Transcriptions
+LinkingDiagramAndText.md=Linking Digital Editions of Diagram and Text
