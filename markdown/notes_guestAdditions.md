@@ -2,6 +2,8 @@
 
 For some reason shutting down the machine and restarting it fixed the problem.  Need to keep an eye on the problem and come up with a more permanent solution.
 
+Potentially relevant [issue thread](https://github.com/dotless-de/vagrant-vbguest/issues/95).
+
     Christine@CHRISTINE-PC ~/Desktop/vagrant-cite/ubuntu-saucy (master)
     $ vagrant up
     Bringing machine 'default' up with 'virtualbox' provider...
