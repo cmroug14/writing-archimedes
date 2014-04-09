@@ -43,18 +43,37 @@ circle Μ? cone Μ?  how to handle lines of which only segments are drawn in eac
 ### Codex Bodmer 8: *S&C* I
 ---
 + **Tracing:** CodBod8_trace005
-+ **Diagram:** [urn:cite:ap:figures.005](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=---
-+ **Tracing:** ArchPal_trace096
-+ **Diagram:** [urn:cite:ap:apdiagrams.096](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=urn:cite:ap:apimg.040r-0000_Arch66r_Sinar_pseudo_no-veil@0.093,0.2618,0.3677,0.1395)
++ **Diagram:** [urn:cite:ap:figures.005]()
 
 How to handle Β that doesn't appear in the text?; paleographic uncertainty between Κ and Η
 
 --- 
 + **Tracing:** CodBod8_trace007
-+ **Diagram:** [urn:cite:ap:figures.007](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=---
-+ **Tracing:** ArchPal_trace096
-+ **Diagram:** [urn:cite:ap:apdiagrams.096](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=urn:cite:ecod:codbod8.cb-0008_006v@0.4384,0.5394,0.1892,0.1185)
++ **Diagram:** [urn:cite:ap:figures.007]()
 
 What to do when something is both visible and a mistake/error?
 
 --- 
++ **Tracing:** CodBod8_trace013
++ **Diagram:** [urn:cite:ap:figures.013]()
+
+Rectangle labeled Μ instead of Κ. Should ID be labelΜ or labelΚ? (General method had been to follow the text for IDs...); Labeled labelΜ and areaΚ
+
+--- 
++ **Tracing:** CodBod8_trace014
++ **Diagram:** [urn:cite:ap:figures.014]()
+
+Line labeled Μ instead of Κ. Should ID be labelΜ or labelΚ? (General method had been to follow the text for IDs...); Labeled labelΜ and lineΔΚ
+
+--- 
++ **Tracing:** CodBod8_trace016
++ **Diagram:** [urn:cite:ap:figures.016]()
+
+Circle and line label switched (Β and Δ)? (General method had been to follow the text for IDs...); Labeled circleΔ and lineΒ
+
+--- 
++ **Tracing:** CodBod8_trace018
++ **Diagram:** [urn:cite:ap:figures.018]()
+
+Confusion with labels Κ vs Ν vs Η and Λ vs Χ
+gnomonΜΝΞ?
