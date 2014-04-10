@@ -77,3 +77,28 @@ Circle and line label switched (Β and Δ)? (General method had been to follow t
 
 Confusion with labels Κ vs Ν vs Η and Λ vs Χ
 gnomonΜΝΞ?
+
+--- 
++ **Tracing:** CodBod8_trace019
++ **Diagram:** [urn:cite:ap:figures.019]()
+
+labels Δ, Ε might have been switched at some point (consider Netz's argument, p.104); text calls for vertex Ε and base Δ, so lines are IDed as such in the tracing (but labels left as they are)
+Κ seems to be Μ instead
+
+--- 
++ **Tracing:** CodBod8_trace020
++ **Diagram:** [urn:cite:ap:figures.020]()
+
+second Μ corrected to a Ν: labelΜ2:visible,sic; labelΝ:visible,corr; how to link the sic and corr? can't wrap in a choice element...; Η is written as Π; another sic and corr with lineΔΖ; a third sic and corr with lineΝΞ
+
+--- 
++ **Tracing:** CodBod8_trace021 
++ **Diagram:** [urn:cite:ap:figures.021]()
+
+Ν for Η. Χ for Ζ. lineΔΦ,ΕΦ when Φ is not mentioned in text? Η for Κ? Z for Ξ? unspecified layer in place of tracesteps.
+
+--- 
++ **Tracing:** CodBod8_trace022
++ **Diagram:** [urn:cite:ap:figures.022]()
+
+Ζ for Ξ. Σ for Ο? unspecified layer in place of tracesteps.
