@@ -42,10 +42,22 @@ circle Μ? cone Μ?  how to handle lines of which only segments are drawn in eac
 ---
 ### Codex Bodmer 8: *S&C* I
 ---
++ **Tracing:** CodBod8_trace004
++ **Diagram:** [urn:cite:ap:figures.004]()
+
+duplication of Β? fix diagram trace; Κ for Η
+
+---
 + **Tracing:** CodBod8_trace005
 + **Diagram:** [urn:cite:ap:figures.005]()
 
 How to handle Β that doesn't appear in the text?; paleographic uncertainty between Κ and Η
+
+---
++ **Tracing:** CodBod8_trace006
++ **Diagram:** [urn:cite:ap:figures.006]()
+
+How to handle Ε that doesn't appear in the text?  Less a label and more a number?
 
 --- 
 + **Tracing:** CodBod8_trace007
@@ -102,3 +114,9 @@ second Μ corrected to a Ν: labelΜ2:visible,sic; labelΝ:visible,corr; how to 
 + **Diagram:** [urn:cite:ap:figures.022]()
 
 Ζ for Ξ. Σ for Ο? unspecified layer in place of tracesteps.
+
+--- 
++ **Tracing:** CodBod8_trace024
++ **Diagram:** [urn:cite:ap:figures.024]()
+
+Missing Θ; misplaced Μ; lineΕ sic and lineΕΛ corr? labelΗ1 and labelΗ2 because Η for Ν; unspecified lineΔΞ
