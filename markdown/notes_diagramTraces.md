@@ -11,7 +11,7 @@ Notes
 + **Tracing:** ArchPal_trace085
 + **Diagram:** [urn:cite:ap:apdiagrams.085](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=urn:cite:ap:apimg.150v-153r_Arch58v_Sinar_pseudo_no-veil@0.1377,0.6543,0.3963,0.205)
 
-Notes
+Text never names the polygons, just refers to inscribed and circumscribed polygons.  Called them null0 and null1.  Inscribed polygon in diagram has labels ΕΖΗ.
 
 ---
 + **Tracing:** ArchPal_trace086
@@ -20,12 +20,36 @@ Notes
 Notes
 
 ---
++ **Tracing:** ArchPal_trace087
++ **Diagram:** [urn:cite:ap:apdiagrams.087]()
+
+See Netz 158.  polygon(Α,Β,Γ,Δ,Ε) from text does not have all the drawn in lines, so how to handle its ID?  Technically the drawn part only has labels Δ Γ Ε.
+
+---
++ **Tracing:** ArchPal_trace088
++ **Diagram:** [urn:cite:ap:apdiagrams.088]()
+
+Bottom half of diagram lost.
+
+---
++ **Tracing:** ArchPal_trace089
++ **Diagram:** [urn:cite:ap:apdiagrams.089]()
+
+Cone or triangle Κ?
+
+---
++ **Tracing:** ArchPal_trace093
++ **Diagram:** [urn:cite:ap:apdiagrams.093]()
+
+LineΒΔ never specified? Heiberg cell left empty
+
+---
 ### Archimedes Palimpsest: *S&C* II
 ---
 + **Tracing:** ArchPal_trace094
 + **Diagram:** [urn:cite:ap:apdiagrams.094](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=urn:cite:ap:apimg.094v-091r_Arch64v_Sinar_pseudo_no-veil@0.4793,0.107,0.3373,0.204)
 
-Identifiers?  "Let this be a **cone or cylinder**...", sphere/circle Β, cylinder Ε yet composed of lines and circles...
+Identifiers?  "Let this be a **cone or cylinder**...", perhaps choice element in text? sphere/circle Β, cylinder Ε yet composed of lines and circles...
 
 ---
 + **Tracing:** ArchPal_trace095
@@ -38,6 +62,12 @@ circle Μ? cone Μ?  how to handle lines of which only segments are drawn in eac
 + **Diagram:** [urn:cite:ap:apdiagrams.096](http://beta.hpcc.uh.edu/tomcat/apcite/images?request=GetIIPMooViewer&urn=urn:cite:ap:apimg.040r-0000_Arch66r_Sinar_pseudo_no-veil@0.093,0.2618,0.3677,0.1395)
 
 "With the same laid down..."; line ΔΖ, ΒΔ have no label Δ (Δ is incorrectly(?) used elsewhere in the diagram); cone Ν? circle Ν?
+
+---
++ **Tracing:** ArchPal_trace098
++ **Diagram:** [urn:cite:ap:apdiagrams.098]()
+
+Lines ΕΗ ΛΝ ΒΘ and points Ρ Π never specified in first part of the proposition, but text does mention them later so should they be included anyway?  Currently including them even though the text that mentions them follows after the diagram
 
 ---
 ### Codex Bodmer 8: *S&C* I
@@ -69,7 +99,7 @@ What to do when something is both visible and a mistake/error?
 + **Tracing:** CodBod8_trace013
 + **Diagram:** [urn:cite:ap:figures.013]()
 
-Rectangle labeled Μ instead of Κ. Should ID be labelΜ or labelΚ? (General method had been to follow the text for IDs...); Labeled labelΜ and areaΚ
+Rectangle labeled Μ instead of Κ. Should ID be labelΜ or labelΚ? (General method had been to follow the text for IDs...); Labeled labelΜ and areaΚ; what to do about Δ Θ?  lines which are tangent in the text pass through them -- should they be included in the diagram IDs?
 
 --- 
 + **Tracing:** CodBod8_trace014
