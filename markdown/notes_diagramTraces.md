@@ -150,3 +150,9 @@ second Μ corrected to a Ν: labelΜ2:visible,sic; labelΝ:visible,corr; how to 
 + **Diagram:** [urn:cite:ap:figures.024]()
 
 Missing Θ; misplaced Μ; lineΕ sic and lineΕΛ corr? labelΗ1 and labelΗ2 because Η for Ν; unspecified lineΔΞ
+
+--- 
++ **Tracing:** CodBod8_trace029
++ **Diagram:** [urn:cite:ap:figures.029]()
+
+Netz: "There is a fundamental error on codex A, producing in effect the diagram of 1.35 instead of that of 1.27..."
